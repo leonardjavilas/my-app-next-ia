@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# App de Sorteo de Correos
 
-## Getting Started
+Aplicación web para realizar sorteos aleatorios a partir de una lista de correos electrónicos. Desarrollada con Next.js, React, TypeScript y Tailwind CSS.
 
-First, run the development server:
+## Características
+
+- ✅ Validación de formato de email
+- ✅ Eliminación automática de duplicados
+- ✅ Selección aleatoria de un único ganador
+- ✅ Soporte para modo oscuro
+- ✅ Diseño responsive
+- ✅ Interfaz moderna y fácil de usar
+
+## Cómo funciona
+
+1. Pega tu lista de correos electrónicos en el textarea (separados por líneas, comas o punto y coma)
+2. La app valida automáticamente el formato de cada email
+3. Elimina duplicados automáticamente
+4. Haz clic en "Sortear Ganador" para seleccionar un ganador al azar
+5. El ganador se muestra en una sección destacada
+
+## Tecnologías
+
+- **Next.js 16.2.4** - Framework de React
+- **React 19.2.4** - Biblioteca UI
+- **TypeScript** - Tipado estático
+- **Tailwind CSS 4** - Estilos
+- **Bun** - Gestor de paquetes
+
+## Herramientas de desarrollo
+
+- **Windsurf** - Editor de código con IA integrada
+- **Warp** - Terminal moderna con características avanzadas
+
+## Instalación
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+bun install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Desarrollo
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Ejecuta el servidor de desarrollo:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+bun run dev
+```
 
-## Learn More
+Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
 
-To learn more about Next.js, take a look at the following resources:
+## Build para producción
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+bun run build
+bun start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Estructura del proyecto
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+my-app-ia/
+├── app/
+│   └── page.tsx       # Componente principal de la app de sorteo
+├── public/           # Archivos estáticos
+└── package.json      # Dependencias del proyecto
+```
