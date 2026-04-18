@@ -8,7 +8,6 @@ Aplicación web para realizar sorteos aleatorios a partir de una lista de correo
 - ✅ **Validación de Email**: Comprueba que los correos electrónicos ingresados tengan un formato válido.
 - ✅ **Eliminación de Duplicados**: Descarta automáticamente las entradas repetidas para asegurar un sorteo justo.
 - ✅ **Selección Aleatoria**: Elige un único ganador de forma completamente aleatoria.
-- ✅ **Modo Oscuro**: Soporte para temas claro y oscuro, adaptándose a las preferencias del sistema.
 - ✅ **Diseño Responsivo**: Interfaz optimizada para su uso en dispositivos de escritorio y móviles.
 - ✅ **Fácil de Usar**: Interfaz limpia e intuitiva que permite realizar un sorteo en segundos.
 
